@@ -16,10 +16,10 @@
  */
 package com.github.lburgazzoli.syndesys.project;
 
+import org.apache.camel.builder.RouteBuilder;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.ImportResource;
-import org.apache.camel.builder.RouteBuilder;
 
 @Configuration
 @ImportResource("classpath:camel-context.xml")
